@@ -1,0 +1,206 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+.navbar-brand {
+  transition: all .5s ease 0s;
+}
+
+.navbar-brand:hover {
+  color: aqua;
+  transform: rotate(2deg);
+}
+
+
+.nav-link:hover {
+  color: aqua;
+  transform: rotate(2deg);
+}
+
+.form-check-input:checked {
+  background-color: grey;
+  border-color: black;
+}
+
+.carousel-caption {
+  position: absolute;
+  display: inline-block;
+  top: 30%;
+  z-index: 3;
+  width: 382px;
+  height: auto;
+  white-space: normal;
+  text-align: left;
+  color: white;
+  transform: translateY(-20%);
+}
+
+@media screen and (max-width: 800px) {
+  .carousel-caption {
+    left: 5%;
+  }
+
+  .carousel-caption .title {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .carousel-caption {
+    left: 5%;
+  }
+  .carousel-caption .title {
+    font-size: 20px;
+  }
+
+  .carousel-caption .isi {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .carousel-caption {
+    left: 5%;
+  }
+
+  .carousel-caption .title {
+    font-size: 15px;
+  }
+
+  .carousel-caption .isi {
+    font-size: 14px;
+  }
+}
+
+.title {
+  pointer-events: none;
+  display: -webkit-box;
+  white-space: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.isi {
+  width: 100%;
+  margin: 20px 0;
+  max-height: 76.8px;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.gambar > img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+/* img {
+  border-radius: 15px;
+} */
+
+input[type="text"],
+input[type="email"],
+textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+textarea {
+  height: 100px;
+}
+
+button[type="tonton"]:hover {
+  background-color: aqua;
+}
+
+input[type="submit"] {
+  margin-top: 5px;
+  background-color: orange;
+  border: none;
+  padding: 5px 25px 5px 25px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: aqua;
+}
+
+.signin {
+  padding: 48px 24px;
+  margin: 20px;
+  border: 1px solid;
+  color: #000032;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 29px;
+}
+
+.pb_41 {
+  padding-bottom: 41px;
+}
+
+.input_email {
+  border: 1.5px solid #000032;
+  border-radius: 8px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  /* White/White 30 - #B3B3B3 */
+  color: #b3b3b3;
+}
+
+.or_text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+
+  color: #333333;
+}
+
+.mt_24 {
+  margin-top: 24px;
+}
+
+.btn_sosmed {
+  background: #f2f2f2;
+  border-radius: 4px;
+}
+
+.btn_signin {
+  background: #f6a973;
+  border-radius: 8px;
+  height: 50px;
+}
+
+.btn_signup {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-decoration: none;
+
+  /* Brand/Orange/Orange - #F6A973 */
+  color: #f6a973;
+}
+
+.btn_signup:hover {
+  color: #000032;
+}
+
+.logo:hover {
+  cursor: pointer;
+}
+
+.dark {
+  background-color: rgb(46, 45, 45);
+  color: black;
+}
